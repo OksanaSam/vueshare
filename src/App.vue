@@ -3,6 +3,7 @@
     <h3>hello</h3>
     <div>
     <AppHeader msg="Welcome to Your Vue.js App"/>
+    <router-view></router-view>
     </div>
   </div>
 </template>
@@ -13,7 +14,7 @@ import AppHeader from './components/AppHeader.vue'
 export default {
   name: 'App',
   components: {
-    AppHeader
+    AppHeader,
   }
 }
 </script>
